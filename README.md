@@ -25,3 +25,17 @@ The system orchestrates multiple AI inferences simultaneously on GPU hardware, a
 - Automated attendance in daily standup meetings
 - Virtual presence in routine team meetings
 - Intelligent meeting participation with context awareness
+
+## Generator Architecture
+
+![Generator Architecture](generator.png)
+
+### Lip-Sync Generation
+The lip-sync generation system utilizes a pre-trained GAN (Generative Adversarial Network) model stored in `gan.pth`. This model has been specifically trained to:
+
+- Convert audio features into precise lip movements
+- Maintain temporal synchronization between speech and visual output
+- Generate natural-looking facial expressions
+- Adapt to different speaking styles and emotions
+
+The pre-trained checkpoint (`gan.pth`) contains the optimized weights and parameters that enable real-time inference while maintaining high-quality visual output. The model architecture is designed to work efficiently on consumer-grade GPUs, ensuring smooth performance during Teams meetings.

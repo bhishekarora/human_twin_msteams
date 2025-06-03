@@ -3,7 +3,7 @@
 ![Technical Architecture](technical.png)
 
 ## Overview
-This project introduces an innovative solution to enhance virtual meeting experiences through an autonomous digital twin. Born from the need to streamline daily standup meetings, this virtual human twin serves as an intelligent presence in Microsoft Teams video calls, capable of understanding context and intent while maintaining natural communication.
+This project introduces a solution to enhance virtual meeting experiences through an autonomous human twin. Born from the need to streamline daily standup meetings, this virtual human twin serves as an intelligent presence in Microsoft Teams video calls, capable of understanding context and intent while maintaining natural communication.
 
 ## Key Features
 
@@ -56,7 +56,7 @@ A new version of the system is currently in development, featuring an autonomous
 #### Intelligent Response System
 - Continuous audio monitoring for contextual triggers
 - Automatic RAG endpoint activation on relevant context detection
-- Meeting details retrieval via MCP (Meeting Context Protocol)
+- Meeting details retrieval via MCP (Model Context Protocol)
 - Dynamic response generation based on meeting context
 
 #### Enhanced Media Pipeline
@@ -65,4 +65,4 @@ A new version of the system is currently in development, featuring an autonomous
 - Real-time video stream generation
 - Seamless integration with Microsoft Teams via PyCam
 
-This advanced version aims to provide a fully autonomous meeting experience, where the digital twin can actively participate in discussions, respond to context, and maintain natural interaction without manual intervention.
+This advanced version aims to provide a fully autonomous meeting experience, where the human twin can actively participate in discussions, respond to context, and maintain natural interaction without manual intervention.

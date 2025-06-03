@@ -39,3 +39,30 @@ The lip-sync generation system utilizes a pre-trained GAN (Generative Adversaria
 - Adapt to different speaking styles and emotions
 
 The pre-trained checkpoint (`gan.pth`) contains the optimized weights and parameters that enable real-time inference while maintaining high-quality visual output. The model architecture is designed to work efficiently on consumer-grade GPUs, ensuring smooth performance during Teams meetings.
+
+## Upcoming: Autopilot Mode (In Development)
+
+![Autopilot Architecture](autopilot.png)
+
+### Advanced RAG-Powered Workflow
+A new version of the system is currently in development, featuring an autonomous autopilot mode with the following capabilities:
+
+#### Meeting Context Management
+- Meeting updates stored in a text file
+- RAG (Retrieval-Augmented Generation) workflow integration
+- Context building using Ollama GPT-3.5
+- Real-time context updates and retrieval
+
+#### Intelligent Response System
+- Continuous audio monitoring for contextual triggers
+- Automatic RAG endpoint activation on relevant context detection
+- Meeting details retrieval via MCP (Meeting Context Protocol)
+- Dynamic response generation based on meeting context
+
+#### Enhanced Media Pipeline
+- Text-to-speech conversion for natural voice synthesis
+- Reverse lip-sync speech synthesis
+- Real-time video stream generation
+- Seamless integration with Microsoft Teams via PyCam
+
+This advanced version aims to provide a fully autonomous meeting experience, where the digital twin can actively participate in discussions, respond to context, and maintain natural interaction without manual intervention.

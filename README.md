@@ -66,3 +66,6 @@ A new version of the system is currently in development, featuring an autonomous
 - Seamless integration with Microsoft Teams via PyCam
 
 This advanced version aims to provide a fully autonomous meeting experience, where the human twin can actively participate in discussions, respond to context, and maintain natural interaction without manual intervention.
+
+
+Want full code or want me to get involved in your MVP , mail me at arora.abhishek@outlook.com 
